@@ -1,0 +1,37 @@
+.logo {
+	border-radius: 75%;
+}
+
+.media {
+	border-radius: 75%;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	border-radius: 75%;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #00000000;
+}
+
+.container:hover .overlay{
+	opacity: 1;
+}
+
+.yt_embed {
+	width: 377px;
+	height: 240px;
+	border-radius: 20px;
+	padding: 5px;
+}
